@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@
     }
     header{
         padding: 1px;
-        border-bottom: 1px solid #333;
+        border-bottom: 1px solid var(--subcor);
         background-color: rgba(0, 0,0,0.1);
     }
     header div {
@@ -24,6 +25,85 @@
         font-family: "Raleway", serif;
     }
     header div a:hover{
-        color:darkslategray;
+        color:var(--subcor);
         transition: color 700ms;
+    }
+    
+    #box{
+        text-align: center;
+        padding: 32px;
+    }
+    
+    #box img {
+        border-radius: 50%;
+        border:gray 5px solid;
+        margin-bottom: 32px;
+    }
+    #box h1 {
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: bold;
+    }
+
+    #box h2 {
+        font-size: 17px;
+        line-height: 25px;
+        font-weight: normal;
+        margin-top: 8px;
+        opacity: 0.8;
+    }
+
+    #box p {
+        max-width: 450px;
+        margin: 32px auto;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    :root {
+        --subcor: #1d44b8;
+    }
+
+    .links {
+        text-align: center;
+    }
+
+    .links a {
+        color: white;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 12px;
+        text-decoration: none;
+    }
+
+    .links a:hover {
+        color: var(--subcor);
+        transition: 600ms;
+        font-size: 20px;
+    }
+
+    #box h1 {
+        padding: 4px;
+    }
+
+    #box h2 {
+        padding: 10px;
+    }
+
+    #box p:hover {
+        font-size: 23px;
+    }
+
+    #box a {
+        color: var(--subcor)
+    }
+
+    #linksfooter{
+        padding-top: 32px;
+    }
+
+    #linksfooter{
+        padding-top: 32px;
+        padding-bottom: 8px;
+        border-bottom: 3px solid var(--subcor);
     }
