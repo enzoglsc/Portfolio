@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
@@ -12,9 +12,11 @@
         padding: 1px;
         border-bottom: 1px solid var(--subcor);
         background-color: rgba(0, 0,0,0.1);
+        font-family: "Poppins", sans-serif;
     }
     header div {
         text-align: center;
+        font-family: "Poppins", sans-serif;
     }
     header div a {
         color:white;
@@ -22,11 +24,12 @@
         line-height: 25px;
         margin: 0 12px;
         text-decoration: none;
-        font-family: "Raleway", serif;
+        font-family: "Poppins", sans-serif;
     }
     header div a:hover{
         color:var(--subcor);
         transition: color 700ms;
+        font-family: "Poppins", sans-serif;
     }
     
     #box{
@@ -43,7 +46,8 @@
         font-size: 35px;
         line-height: 50px;
         font-weight: bold;
-        color:aqua;
+        color: antiquewhite;
+        font-family: "Poppins", sans-serif;
     }
 
     #box h2 {
@@ -52,6 +56,8 @@
         font-weight: normal;
         margin-top: 8px;
         opacity: 0.8;
+        color: antiquewhite;
+        font-family: "Poppins", sans-serif;
     }
 
     #box p {
@@ -59,10 +65,12 @@
         margin: 32px auto;
         font-size: 24px;
         line-height: 30px;
+        color: antiquewhite;
+        font-family: "Poppins", sans-serif;
     }
 
     :root {
-        --subcor: #1d44b8;
+        --subcor: #000080;
     }
 
     .links {
@@ -75,10 +83,11 @@
         line-height: 30px;
         margin: 0 12px;
         text-decoration: none;
+        font-family: "Poppins", sans-serif;
     }
 
     .links a:hover {
-        color: var(--subcor);
+        color: white;
         transition: 600ms;
         font-size: 20px;
     }
