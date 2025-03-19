@@ -9,19 +9,21 @@
         background-color: #252525;
     }
     header{
-        padding: 1px;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
         border-bottom: 1px solid var(--subcor);
         background-color: rgba(0, 0,0,0.1);
         font-family: "Poppins", sans-serif;
     }
     header div {
-        text-align: center;
+        text-align: right;
         font-family: "Poppins", sans-serif;
     }
     header div a {
         color:white;
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 20px;
+        line-height: 30px;
         margin: 0 12px;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
@@ -46,7 +48,7 @@
     #box img:hover {
         transition: 700ms;
         border-radius: 20%;
-        border:rgb(32, 238, 56) 5px solid;
+        border:gray 5px solid;
         margin-bottom: 32px;
     }
     #box h1 {
@@ -79,6 +81,17 @@
     :root {
         --subcor: #000080;
     }
+
+    .Enzo {
+        text-align: left;
+    }
+     .Enzo a {
+        font-size: 20px;
+        margin: 0 12px;
+        line-height: 30px;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+     }
 
     .links {
         text-align: center;
