@@ -41,6 +41,13 @@
         border-radius: 50%;
         border:gray 5px solid;
         margin-bottom: 32px;
+        transition: 700ms;
+    }
+    #box img:hover {
+        transition: 700ms;
+        border-radius: 20%;
+        border:rgb(32, 238, 56) 5px solid;
+        margin-bottom: 32px;
     }
     #box h1 {
         font-size: 35px;
