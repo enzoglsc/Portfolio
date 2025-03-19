@@ -6,14 +6,14 @@
     border: 0;
 }
     body {
-        background-color: #252525;
+        background-color:#BFBFBF;
     }
     header{
         display: flex;
         justify-content: space-between;
         padding: 20px;
         border-bottom: 1px solid var(--subcor);
-        background-color: rgba(0, 0,0,0.1);
+        background-color: #4C5958;
         font-family: "Poppins", sans-serif;
     }
     header div {
@@ -21,10 +21,10 @@
         font-family: "Poppins", sans-serif;
     }
     header div a {
-        color:white;
-        font-size: 20px;
+        color: antiquewhite;
+        font-size: 18px;
         line-height: 30px;
-        margin: 0 12px;
+        margin: 0 8px;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
     }
@@ -41,14 +41,12 @@
     
     #box img {
         border-radius: 50%;
-        border:gray 5px solid;
         margin-bottom: 32px;
         transition: 700ms;
     }
     #box img:hover {
         transition: 700ms;
         border-radius: 20%;
-        border:gray 5px solid;
         margin-bottom: 32px;
     }
     #box h1 {
@@ -79,7 +77,7 @@
     }
 
     :root {
-        --subcor: #000080;
+        --subcor: #8AA6A3;
     }
 
     .Enzo {
