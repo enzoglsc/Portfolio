@@ -24,8 +24,7 @@
         color: antiquewhite;
         font-size: 18px;
         line-height: 30px;
-        margin: 0 8px;
-        text-decoration: none;
+       text-decoration: none;
         font-family: "Poppins", sans-serif;
     }
     header div a:hover{
@@ -84,8 +83,6 @@
     }
      .Enzo a {
         font-size: 20px;
-        line-height: 30px;
-        margin: 0 12px;
         line-height: 35px;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
@@ -154,10 +151,19 @@
 
     .Enzo p {
         color: aquamarine;
-        font-size: 20px;
+        font-size: 10px;
         line-height: 30px;
-     
         text-decoration: none;
         font-family: "Poppins", sans-serif;
+    }
+
+    h3{
+        color: #10403B;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        margin: 0 20px;
+        padding: 75px;
     }
     
