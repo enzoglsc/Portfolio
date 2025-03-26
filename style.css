@@ -34,17 +34,18 @@
     }
     
     #box{
-        text-align: center;
-        padding: 32px;
+        padding: 20px;
+        align-items:right;
+        display: flex;
+        justify-content: space-between;
     }
     
     #box img {
         border-radius: 50%;
-        margin-bottom: 25px;
-        transition: 700ms;
-        right: 20%;
         position: absolute;
-        margin: 50px;
+        margin: 110px;
+        right: -10%;
+        transform: translate(-50%, 15%);
     }
 
     #box h1 {
@@ -83,9 +84,9 @@
         margin: 0px;
     }
      .Enzo a {
-        font-size: 20px;
+        font-size: 25px;
         line-height: 35px;
-        text-decoration: none;
+        text-decoration:solid;
         font-family: "Poppins", sans-serif;
         color:#8AA6A3;
      }
@@ -95,7 +96,7 @@
     }
 
     .Links a {
-        color: white;
+        color: #BFBFBF;
         font-size: 17px;
         line-height: 35px;
         margin: 0 12px;
@@ -140,7 +141,9 @@
         position: absolute;
         top: 35%;
         left: 25%;
-        transform: translate(-50%, -25%);
+        right: -1000%;
+        align-items: center;
+        transform: translate(-70%, -0%);
         box-shadow: 5px 5px 15px black;
     }
 
@@ -160,7 +163,8 @@
         padding: 75px;
     }
 
-    .ponto:nth-child(2a) {
-        color: aquamarine;
+    .ponto:nth-child(2) {
+        color: #127369;
+        font-size: 25px;
     }
     
