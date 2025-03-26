@@ -62,7 +62,7 @@
         font-weight: normal;
         margin-top: 8px;
         opacity: 0.8;
-        color: antiquewhite;
+        color: #4C5958;
         font-family: "Poppins", sans-serif;
     }
 
@@ -84,46 +84,41 @@
     }
      .Enzo a {
         font-size: 20px;
-    
         line-height: 30px;
+        margin: 0 12px;
+        line-height: 35px;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
         color:#8AA6A3;
      }
 
-    .links {
+    .Links {
         text-align: center;
     }
 
-    .links a {
+    .Links a {
         color: white;
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 17px;
+        line-height: 35px;
         margin: 0 12px;
         text-decoration: none;
         font-family: "Poppins", sans-serif;
     }
 
-    .links a:hover {
-        color: white;
+    .Links a:hover {
+        color: var(--subcor);
         transition: 600ms;
-        font-size: 20px;
-    }
-
-    #box h1 {
-        padding: 4px;
+        font-size: 17px;
     }
 
     #box h2 {
         padding: 10px;
     }
 
-    #box p:hover {
-        font-size: 23px;
-    }
 
     #box a {
         color: var(--subcor)
+
     }
 
     #linksfooter{
@@ -165,3 +160,4 @@
         text-decoration: none;
         font-family: "Poppins", sans-serif;
     }
+    
