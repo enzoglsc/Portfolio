@@ -80,6 +80,7 @@
 
     .Enzo {
         text-align: left;
+        margin: 0px;
     }
      .Enzo a {
         font-size: 20px;
@@ -149,14 +150,6 @@
        text-align: center;
     }
 
-    .Enzo p {
-        color: aquamarine;
-        font-size: 10px;
-        line-height: 30px;
-        text-decoration: none;
-        font-family: "Poppins", sans-serif;
-    }
-
     h3{
         color: #10403B;
         font-size: 20px;
@@ -165,5 +158,9 @@
         text-align: center;
         margin: 0 20px;
         padding: 75px;
+    }
+
+    .ponto:nth-child(2a) {
+        color: aquamarine;
     }
     
