@@ -9,7 +9,7 @@
         background-color:#BFBFBF;
     }
     header{
-        display: flex;
+        display: grid;
         justify-content: space-between;
         padding: 20px;
         border-bottom: 1px solid var(--subcor);
@@ -80,15 +80,18 @@
     }
 
     .Enzo {
-        text-align: left;
+        text-align: center;
         margin: 0px;
+        align-items: center;
     }
+    
      .Enzo a {
         font-size: 25px;
         line-height: 35px;
         text-decoration:solid;
         font-family: "Poppins", sans-serif;
         color:#8AA6A3;
+        
      }
 
     .Links {
@@ -173,23 +176,56 @@
         display: flex;
         justify-content: center;
         position: absolute;
+        border-radius: 20px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        box-shadow: 5px 5px 15px black;
     }
 
     .botao1 a {
-        color: #8AA6A3;
+        color: #BFBFBF;
         text-decoration: none;
-        border-radius: 10%;
+        border-radius: 20px;
         background-color: #4C5958;
-        padding: 20px;
+        padding: 10px 20px;
         font-family: "Poppins", sans-serif;
         font-size: 20px;
         line-height: 25px;
+        width: 300px;
+    }
 
+    .botao1 a:hover{
+        transition: 600ms;
+        color: #8AA6A3;
+    }
 
+    .botao2 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        border-radius: 20px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 65%);
+        box-shadow: 5px 5px 15px black;
+    }
 
+    .botao2 a {
+        color: #BFBFBF;
+        border-radius: 20px;
+        text-decoration: none;
+        background-color: #4C5958;
+        padding: 10px 20px;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+        width: 300px;
+    }
 
+    .botao2 a:hover {
+        transition: 600ms;
+        color: #8AA6A3;
     }
     
