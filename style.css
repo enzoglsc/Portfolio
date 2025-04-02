@@ -167,4 +167,29 @@
         color: #127369;
         font-size: 25px;
     }
+
+    .botao1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .botao1 a {
+        color: #8AA6A3;
+        text-decoration: none;
+        border-radius: 10%;
+        background-color: #4C5958;
+        padding: 20px;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+
+
+
+
+    }
     
