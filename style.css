@@ -9,8 +9,9 @@
         background-color:#BFBFBF;
     }
     header{
-        display: grid;
+        display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 20px;
         border-bottom: 1px solid var(--subcor);
         background-color: #4C5958;
@@ -83,6 +84,7 @@
         text-align: center;
         margin: 0px;
         align-items: center;
+        flex-grow: 1;
     }
     
      .Enzo a {
@@ -90,8 +92,8 @@
         line-height: 35px;
         text-decoration:solid;
         font-family: "Poppins", sans-serif;
-        color:#8AA6A3;
-        
+        color:#BFBFBF;
+        align-items: center;
      }
 
     .Links {
