@@ -46,7 +46,11 @@
         position: absolute;
         margin: 110px;
         right: -10%;
-        transform: translate(-50%, 15%);
+        transform: translate(-50%, 15%); 
+        bottom: 240px;
+        top: 240px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     #box h1 {
